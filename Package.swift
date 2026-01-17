@@ -93,6 +93,7 @@ let package = Package(
                 .define("MACOS_X_DARWIN"),
                 .headerSearchPath("."),
                 .headerSearchPath("include"),
+                .headerSearchPath("include/auto"),
                 .headerSearchPath("onilibvim/src"),
                 .headerSearchPath("onilibvim/src/proto"),
             ]
